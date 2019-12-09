@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xrm.Sdk;
 
-namespace KalenaPlugins
+namespace KalenaBackendPlugins
 {
     public class HelloWorld : IPlugin
     {
@@ -43,7 +43,8 @@ namespace KalenaPlugins
 
                 try // Plug-in business logic goes here.  
                 {
-                    
+                    // Nothing to do :)
+
                     // string eenAttributeWaarde = entity.Attributes["hierdenaamvanhetatrribute"].ToString();
 
                 }
